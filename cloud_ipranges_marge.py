@@ -17,8 +17,10 @@ def main():
 		'gcp': 'gcp_ipranges.csv',
 	};
 
-	for k, v in venders.items():
-		print(readCsv(k, v))
+	with open("cloud_ipranges.csv", 'wt') as f:
+		f.write('ip_range,vender'+'\n')
+		for k, v in venders.items():
+			f.write(readCsv(k, v))
 
 if __name__ == '__main__':
 	main()

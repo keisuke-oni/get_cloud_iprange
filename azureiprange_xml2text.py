@@ -25,8 +25,9 @@ def main():
 
 	ip_ranges = delete_duplicate(ip_ranges)
 	ip_ranges.sort()
-	for ip_range in ip_ranges:
-		print(ip_range)
+	with open("azure_ipranges.csv", 'wt') as f:
+		for ip_range in ip_ranges:
+			f.write(ip_range+'\n')
 	
 if __name__ == '__main__':
 	main()
