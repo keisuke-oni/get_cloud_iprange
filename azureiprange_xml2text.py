@@ -8,7 +8,7 @@ def delete_duplicate(input_list):
 	return deleted_list
 
 def main():
-	# Maybe this date will be updated in the future.  Please confirm.
+	# Maybe this date will be updated in the future.  Please fix this.
 	# https://www.microsoft.com/en-us/download/details.aspx?id=41653
 	#
 	xml_date = '20190715'
