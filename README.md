@@ -1,4 +1,4 @@
-# cloud_iprange
+# get_cloud_iprange
 
 各種クラウドサービスが利用しているIPアドレスレンジをCSVで収集するスクリプトです。
 
