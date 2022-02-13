@@ -15,8 +15,9 @@ AWSのサイトからIPアドレスを収集してきます。
 ### azureiprange_xml2text.py
 AzureのサイトからIPアドレスを収集してきます。<br />
 最新版の日付を自動収集する機能はないので、確認して修正してください。
-### find_gcp_iprange.py (https://github.com/keisuke-oni/find_gcp_iprange)
-GCPのドメインからDNSを再帰的に引いてIPアドレスを収集してきます。
+### find_gcp_iprange.py
+GCPのドメインからDNSを再帰的に引いてIPアドレスを収集してきます。<br />
+https://github.com/keisuke-oni/get_cloud_iprange/README-find_gcp_iprange.md
 ### cloud_ipranges_marge.py
 すべてのクラウドサービスのIPを1つのCSVファイルにまとめます。
 
