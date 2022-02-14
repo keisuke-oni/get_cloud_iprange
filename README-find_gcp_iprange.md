@@ -1,4 +1,4 @@
-# find_gcp_iprange
+# find_gcp_iprange.py
 ## Introduction
 Google Cloud Platform (GCP) 's IP address ranges are not provided as Official.<br />
 Inorder to getting it, we need to resolv dns SPF record described by TXT record of '_cloud-netblocks.googleusercontent.com'.<br />
